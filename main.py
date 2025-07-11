@@ -60,7 +60,6 @@ except Exception as e:
     print(f"Ocorreu um erro ao processar a imagem: {e}")
     exit()
 
-
 # Função para calcular a distância (neste caso, a distância euclidiana entre o centro da pessoa e o centro da área de perigo)
 def calcular_distancia(ponto1, ponto2):
     return np.sqrt((ponto1[0] - ponto2[0])**2 + (ponto1[1] - ponto2[1])**2)
